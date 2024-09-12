@@ -1,4 +1,4 @@
-import {View} from 'react-native';
+import {ScrollView, View} from 'react-native';
 import {styles} from './style';
 
 import Welcome from './Welcome';
@@ -10,11 +10,13 @@ import Recommendation from './Recommendation';
 const Explore = () => {
   return (
     <View style={styles.container}>
-      <GradientHeader />
-      <Welcome />
-      <Category />
-      {/* <Sectors /> */}
-      <Recommendation />
+      <ScrollView>
+        <GradientHeader />
+        <Welcome />
+        <Category />
+        <Sectors />
+        <Recommendation />
+      </ScrollView>
     </View>
   );
 };

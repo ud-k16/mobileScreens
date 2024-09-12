@@ -113,6 +113,7 @@ export const styles = StyleSheet.create({
     paddingHorizontal: 24,
     marginTop: 24,
     rowGap: 12,
+    marginBottom: 25,
   },
   RecommendationCardContainer: {
     backgroundColor: '#F6F4FF',
