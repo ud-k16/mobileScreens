@@ -96,4 +96,17 @@ export const styles = StyleSheet.create({
     color: '#000000',
     textAlign: 'center',
   },
+  popularSectorContainer: {
+    paddingHorizontal: 24,
+    marginTop: 24,
+  },
+  sectorView: {
+    flexDirection: 'row',
+    marginVertical: 12,
+    columnGap: 12,
+  },
+  sectorImageStyle: {
+    width: '47%',
+    height: 140,
+  },
 });
