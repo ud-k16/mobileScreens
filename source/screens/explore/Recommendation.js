@@ -9,6 +9,7 @@ const Recommendation = () => {
         <Text style={styles.headingText}>Recommended For You</Text>
       </View>
       <RecommendationCard />
+      <RecommendationCard />
     </View>
   );
 };
