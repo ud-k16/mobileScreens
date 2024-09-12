@@ -55,7 +55,45 @@ export const styles = StyleSheet.create({
     backgroundColor: 'white',
     borderRadius: 12,
   },
+  headingTextcontainer: {
+    flexDirection: 'row',
+  },
+  headingText: {
+    fontSize: 16,
+    fontWeight: '700',
+    lineHeight: 16.94,
+    color: 'black',
+  },
   exploreCategoryContainer: {
     backgroundColor: 'white',
+    marginTop: 120,
+    paddingHorizontal: 24,
+  },
+  categoryContainer: {
+    flexWrap: 'wrap',
+    flexDirection: 'row',
+    columnGap: 15,
+    paddingVertical: 12,
+    rowGap: 12,
+  },
+  categoryCardStyle: {
+    height: 40,
+    borderRadius: 20,
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 12,
+  },
+  categoryCardContent: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    alignItems: 'center',
+  },
+  categoryCardText: {
+    fontFamily: 'SFProDisplay',
+    fontSize: 12,
+    fontWeight: '500',
+    lineHeight: 14.32,
+    color: '#000000',
+    textAlign: 'center',
   },
 });
