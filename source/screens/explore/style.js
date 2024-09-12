@@ -109,4 +109,46 @@ export const styles = StyleSheet.create({
     width: '47%',
     height: 140,
   },
+  RecommendationContainer: {
+    paddingHorizontal: 24,
+    marginTop: 24,
+    rowGap: 12,
+  },
+  RecommendationCardContainer: {
+    backgroundColor: '#F6F4FF',
+    height: 115,
+    borderRadius: 15,
+    padding: 15,
+    flexDirection: 'row',
+  },
+  RecommendedImageView: {
+    width: 84,
+    height: 81,
+    backgroundColor: '#FFC5C5',
+
+    borderRadius: 10,
+  },
+  recommendedText: {
+    fontSize: 12,
+    fontWeight: '800',
+    lineHeight: 18,
+    color: '#060047',
+    width: 186,
+    height: 54,
+    paddingLeft: 15,
+  },
+  timeText: {
+    color: '#060047',
+    fontSize: 10,
+    fontWeight: '400',
+
+    color: '#060047',
+  },
+  exploreButton: {
+    backgroundColor: '#995BFF',
+    borderRadius: 50,
+    height: 24,
+    width: 76,
+    padding: 5,
+  },
 });

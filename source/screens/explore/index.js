@@ -5,6 +5,7 @@ import Welcome from './Welcome';
 import GradientHeader from './GradientHeader';
 import Category from './Category';
 import Sectors from './Sectors';
+import Recommendation from './Recommendation';
 
 const Explore = () => {
   return (
@@ -12,7 +13,8 @@ const Explore = () => {
       <GradientHeader />
       <Welcome />
       <Category />
-      <Sectors />
+      {/* <Sectors /> */}
+      <Recommendation />
     </View>
   );
 };
