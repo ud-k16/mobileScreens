@@ -141,7 +141,6 @@ export const styles = StyleSheet.create({
     color: '#060047',
     fontSize: 10,
     fontWeight: '400',
-
     color: '#060047',
   },
   exploreButton: {
@@ -157,7 +156,6 @@ export const styles = StyleSheet.create({
     borderTopRightRadius: 25,
     left: 266,
     position: 'absolute',
-    // opacity: 0.6,
   },
   decorationBottomImageStyle: {
     width: 53,
@@ -166,5 +164,25 @@ export const styles = StyleSheet.create({
     left: 284,
     position: 'absolute',
     opacity: 0.58,
+  },
+  deocorationLeftSide: {
+    width: 42,
+    height: 43,
+    top: 75,
+    zIndex: 100,
+    borderTopRightRadius: 25,
+    transform: [{rotate: '180deg'}],
+    position: 'absolute',
+  },
+  deocorationLeftBottomSide: {
+    width: 22,
+    height: 42,
+    top: 75,
+
+    opacity: 0.58,
+
+    borderTopRightRadius: 25,
+    transform: [{rotate: '180deg'}],
+    position: 'absolute',
   },
 });

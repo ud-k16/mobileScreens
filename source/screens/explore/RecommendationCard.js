@@ -8,6 +8,8 @@ const RecommendationCard = () => {
     <View style={styles.RecommendationCardContainer}>
       <Image source={Decoration} style={styles.decorationBottomImageStyle} />
       <Image source={Design} style={styles.decorationImageStyle} />
+      <Image source={Decoration} style={styles.deocorationLeftBottomSide} />
+      <Image source={Design} style={styles.deocorationLeftSide} />
       <View style={styles.RecommendedImageView}></View>
       <View>
         <Text style={styles.recommendedText}>
