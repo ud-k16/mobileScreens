@@ -1,9 +1,13 @@
 import {styles} from './style';
-import {Pressable, Text, View} from 'react-native';
+import {Image, Pressable, Text, View} from 'react-native';
+import Design from '../../assets/design.png';
+import Decoration from '../../assets/decoration.png';
 
 const RecommendationCard = () => {
   return (
     <View style={styles.RecommendationCardContainer}>
+      <Image source={Decoration} style={styles.decorationBottomImageStyle} />
+      <Image source={Design} style={styles.decorationImageStyle} />
       <View style={styles.RecommendedImageView}></View>
       <View>
         <Text style={styles.recommendedText}>

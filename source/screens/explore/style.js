@@ -151,4 +151,20 @@ export const styles = StyleSheet.create({
     width: 76,
     padding: 5,
   },
+  decorationImageStyle: {
+    width: 71,
+    height: 72,
+    borderTopRightRadius: 25,
+    left: 266,
+    position: 'absolute',
+    // opacity: 0.6,
+  },
+  decorationBottomImageStyle: {
+    width: 53,
+    height: 78,
+    borderTopRightRadius: 25,
+    left: 284,
+    position: 'absolute',
+    opacity: 0.58,
+  },
 });
