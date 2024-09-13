@@ -94,4 +94,11 @@ export const styles = StyleSheet.create({
     lineHeight: 16.94,
     color: 'black',
   },
+  servicesView: {
+    paddingLeft: 24,
+    flexWrap: 'wrap',
+    flexDirection: 'row',
+    alignItems: 'center',
+    columnGap: 15,
+  },
 });
