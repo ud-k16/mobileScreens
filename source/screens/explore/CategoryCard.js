@@ -30,7 +30,6 @@ const CategoryCard = ({gradientColor = ['', ''], name = ''}) => {
     default:
       break;
   }
-  console.log(icon);
 
   return (
     <LinearGradient
