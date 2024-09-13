@@ -1,4 +1,4 @@
-import {Image, View} from 'react-native';
+import {Image, Text, View} from 'react-native';
 import Header from './Header';
 import {styles} from './style';
 import Content from './Content';
@@ -12,6 +12,8 @@ const Home = () => {
   return (
     <View style={styles.container}>
       <Header />
+      <Text style={styles.helloText}>Hello,</Text>
+      <Text style={styles.descriptionText}>Fancy for a wash today!</Text>
       <Image source={Paw1} style={styles.paw1} />
       <Image source={Paw2} style={styles.paw2} />
       <Image source={Dog1} style={styles.dog1} />
