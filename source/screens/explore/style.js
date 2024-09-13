@@ -77,24 +77,20 @@ export const styles = StyleSheet.create({
     rowGap: 12,
   },
   categoryCardStyle: {
-    height: 40,
-    borderRadius: 20,
-    justifyContent: 'center',
-    alignItems: 'center',
+    height: 50,
+    borderRadius: 40,
     padding: 12,
   },
   categoryCardContent: {
     flexDirection: 'row',
-    justifyContent: 'space-around',
+    justifyContent: 'center',
     alignItems: 'center',
   },
   categoryCardText: {
     fontFamily: 'SFProDisplay',
     fontSize: 12,
     fontWeight: '500',
-    lineHeight: 14.32,
     color: '#000000',
-    textAlign: 'center',
   },
   popularSectorContainer: {
     paddingHorizontal: 24,
