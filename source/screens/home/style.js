@@ -44,4 +44,6 @@ export const styles = StyleSheet.create({
 
     position: 'absolute',
   },
+  paw1: {width: 28.94, height: 29.5, top: 101, left: 350, position: 'absolute'},
+  paw2: {width: 29.99, height: 40.5, top: 164, left: 38, position: 'absolute'},
 });
