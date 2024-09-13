@@ -76,4 +76,10 @@ export const styles = StyleSheet.create({
   inputStyle: {
     width: 272,
   },
+  bannerStyle: {
+    width: 342,
+    height: 127,
+    left: 24,
+    borderRadius: 20,
+  },
 });
