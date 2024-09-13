@@ -82,4 +82,16 @@ export const styles = StyleSheet.create({
     left: 24,
     borderRadius: 20,
   },
+  headingTextcontainer: {
+    flexDirection: 'row',
+    left: 24,
+    marginVertical: 25,
+    columnGap: 180,
+  },
+  headingText: {
+    fontSize: 16,
+    fontWeight: '700',
+    lineHeight: 16.94,
+    color: 'black',
+  },
 });

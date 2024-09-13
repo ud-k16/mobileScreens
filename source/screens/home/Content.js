@@ -1,8 +1,10 @@
-import {Image, ScrollView, TextInput, View} from 'react-native';
+import {Image, ScrollView, Text, TextInput, View} from 'react-native';
 import {styles} from './style';
 import Feather from 'react-native-vector-icons/Feather';
 import Ionicons from 'react-native-vector-icons/Ionicons';
+import Entypo from 'react-native-vector-icons/Entypo';
 import Banner from '../../assets/banner.png';
+
 const Content = () => {
   return (
     <View style={styles.contentContainer}>
@@ -17,6 +19,10 @@ const Content = () => {
           <Ionicons name="options-outline" size={24} color="black" />
         </View>
         <Image source={Banner} style={styles.bannerStyle} />
+        <View style={styles.headingTextcontainer}>
+          <Text style={styles.headingText}>Popular Services</Text>
+          <Entypo name="dots-three-horizontal" size={24} color="black" />
+        </View>
       </ScrollView>
     </View>
   );
