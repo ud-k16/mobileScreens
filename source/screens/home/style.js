@@ -62,4 +62,18 @@ export const styles = StyleSheet.create({
     color: 'black',
     lineHeight: 19.09,
   },
+  searchBarStyle: {
+    alignItems: 'center',
+    width: 342,
+    height: 46,
+    backgroundColor: '#FFEDF2',
+    left: 24,
+    flexDirection: 'row',
+    borderRadius: 12,
+    paddingHorizontal: 10,
+    marginVertical: 50,
+  },
+  inputStyle: {
+    width: 272,
+  },
 });
