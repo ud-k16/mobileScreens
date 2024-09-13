@@ -16,10 +16,11 @@ export const styles = StyleSheet.create({
     backgroundColor: 'white',
     borderTopLeftRadius: 30,
     borderTopRightRadius: 30,
-    top: 218,
+    top: 170,
     flex: 1,
   },
   dog1: {
+    zIndex: 100,
     width: 63.45,
     height: 83.06,
     top: 147.56,
@@ -27,6 +28,7 @@ export const styles = StyleSheet.create({
     position: 'absolute',
   },
   dog2: {
+    zIndex: 100,
     width: 75.73,
     height: 90.41,
     top: 142,
@@ -34,6 +36,7 @@ export const styles = StyleSheet.create({
     position: 'absolute',
   },
   dog3: {
+    zIndex: 100,
     width: 64.4,
     height: 75.55,
     top: 153.39,
