@@ -18,6 +18,7 @@ export const styles = StyleSheet.create({
     borderTopRightRadius: 30,
     top: 110,
     flex: 1,
+    marginBottom: 80,
   },
   dog1: {
     zIndex: 100,
@@ -100,5 +101,59 @@ export const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     columnGap: 15,
+  },
+  serviceContainer: {
+    paddingHorizontal: 24,
+    marginTop: 24,
+    rowGap: 12,
+    marginBottom: 25,
+  },
+  serviceCardContainer: {
+    backgroundColor: '#FFE7EA',
+    width: 342,
+    height: 99,
+    left: 24,
+    borderRadius: 15,
+    padding: 15,
+    flexDirection: 'row',
+    marginBottom: 14,
+  },
+  serviceImageView: {
+    width: 84,
+    height: 81,
+
+    borderRadius: 10,
+  },
+  serviceText: {
+    fontSize: 12,
+    fontWeight: '800',
+    lineHeight: 18,
+    color: '#060047',
+    width: 186,
+    height: 54,
+    paddingLeft: 15,
+  },
+  decorationImageStyle: {
+    width: 59,
+    height: 58,
+    left: 284,
+
+    opacity: 0.6,
+
+    borderTopRightRadius: 20,
+
+    position: 'absolute',
+  },
+  deocorationLeftSide: {
+    width: 41,
+    height: 58,
+    top: 42,
+
+    zIndex: 100,
+    opacity: 0.58,
+
+    borderTopRightRadius: 20,
+    transform: [{rotate: '180deg'}],
+    position: 'absolute',
   },
 });

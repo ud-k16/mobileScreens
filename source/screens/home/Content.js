@@ -9,11 +9,12 @@ import Ser2 from '../../assets/ser2.png';
 import Ser3 from '../../assets/ser3.png';
 import Ser4 from '../../assets/ser4.png';
 import Ser5 from '../../assets/ser5.png';
+import ServiceProviderCard from './ServiceProviderCard';
 
 const Content = () => {
   return (
     <View style={styles.contentContainer}>
-      <ScrollView contentContainerStyle={{flexGrow: 1}}>
+      <ScrollView contentContainerStyle={{flexGrow: 1}} style={{flex: 1}}>
         <View style={styles.searchBarStyle}>
           <Feather name="search" size={24} color="#FF6694" />
           <TextInput
@@ -35,6 +36,13 @@ const Content = () => {
           <Image source={Ser4} />
           <Image source={Ser5} />
         </View>
+        <View style={styles.headingTextcontainer}>
+          <Text style={styles.headingText}>Service Providers</Text>
+          <Entypo name="dots-three-horizontal" size={24} color="black" />
+        </View>
+        <ServiceProviderCard />
+        <ServiceProviderCard />
+        <ServiceProviderCard />
       </ScrollView>
     </View>
   );
