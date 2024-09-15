@@ -10,6 +10,7 @@ import Ser3 from '../../assets/ser3.png';
 import Ser4 from '../../assets/ser4.png';
 import Ser5 from '../../assets/ser5.png';
 import ServiceProviderCard from './ServiceProviderCard';
+import Ratings from './Ratings';
 
 const Content = () => {
   return (
@@ -43,6 +44,7 @@ const Content = () => {
         <ServiceProviderCard />
         <ServiceProviderCard />
         <ServiceProviderCard />
+        <Ratings />
       </ScrollView>
     </View>
   );
