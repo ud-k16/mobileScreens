@@ -9,6 +9,14 @@ export const styles = StyleSheet.create({
     width: 390,
     height: 186,
     borderBottomRightRadius: 50,
+
+    paddingHorizontal: 25,
+    paddingVertical: 17,
+  },
+  headerAction: {
+    columnGap: 270,
+    flexDirection: 'row',
+    alignItems: 'center',
   },
   welcomeViewContainer: {
     width: 296,
