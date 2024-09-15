@@ -119,8 +119,8 @@ export const styles = StyleSheet.create({
     marginBottom: 14,
   },
   serviceImageView: {
-    width: 84,
-    height: 81,
+    width: 58,
+    height: 58,
 
     borderRadius: 10,
   },
