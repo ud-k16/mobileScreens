@@ -108,7 +108,8 @@ export const styles = StyleSheet.create({
   sectorView: {
     flexDirection: 'row',
     marginVertical: 12,
-    columnGap: 12,
+    justifyContent: 'space-between',
+    // columnGap: 12,
   },
   sectorImageStyle: {
     width: '47%',
