@@ -9,15 +9,16 @@ import RatedUserCard from './RatedUserCard';
 const Ratings = () => {
   return (
     <View>
-      <View style={[styles.headingTextcontainer, {columnGap: 259}]}>
+      <View
+        style={[
+          styles.headingTextcontainer,
+          {columnGap: 259, marginBottom: 3},
+        ]}>
         <Text style={styles.headingText}>Ratings</Text>
         <Entypo name="dots-three-horizontal" size={24} color="black" />
       </View>
       <View
-        style={[
-          styles.headingTextcontainer,
-          {marginVertical: 2, columnGap: 0},
-        ]}>
+        style={[styles.headingTextcontainer, {columnGap: 0, marginBottom: 10}]}>
         <Text style={[styles.headingText, {color: '#FF6694'}]}>13 Reviews</Text>
 
         <View
