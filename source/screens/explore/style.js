@@ -50,8 +50,9 @@ export const styles = StyleSheet.create({
   searchBarStyle: {
     width: 248,
     height: 46,
-
-    paddingVertical: 13,
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingLeft: 13,
     backgroundColor: 'white',
     borderRadius: 12,
   },
