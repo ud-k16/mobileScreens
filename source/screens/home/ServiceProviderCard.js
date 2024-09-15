@@ -12,26 +12,16 @@ const ServiceProviderCard = () => {
       <Image style={styles.serviceImageView} source={Man} />
 
       <View>
+        <Text style={styles.serviceProviderName}>Rohit Singhania</Text>
         <Text style={styles.serviceText}>
-          Now share the Construction Sectors with your anyone and can save it as
-          bookmark
+          Lorem ipsum dolor sit amet consectetur. Eget commodo ipsum.
         </Text>
-        <View
-          style={{
-            flexDirection: 'row',
-            paddingLeft: 15,
-            paddingTop: 6,
-            alignItems: 'center',
-            justifyContent: 'space-evenly',
-            columnGap: 25,
-          }}>
-          <Text style={styles.timeText}>Updated | 06:30 AM</Text>
-          <Pressable style={styles.exploreButton}>
-            <Text style={{textAlign: 'center', color: 'white', fontSize: 10}}>
-              Explore
-            </Text>
-          </Pressable>
-        </View>
+
+        <Pressable style={styles.exploreButton}>
+          <Text style={{textAlign: 'center', color: 'white', fontSize: 10}}>
+            Know More
+          </Text>
+        </Pressable>
       </View>
     </View>
   );
