@@ -1,13 +1,10 @@
 import {Image, ScrollView, Text, TextInput, View} from 'react-native';
 import {styles} from './style';
-import Feather from 'react-native-vector-icons/Feather';
-import Ionicons from 'react-native-vector-icons/Ionicons';
-import Entypo from 'react-native-vector-icons/Entypo';
 import Banner from '../../assets/banner.png';
-import ServiceProviderCard from './ServiceProviderCard';
 import Ratings from './Ratings';
 import PopularServices from './PopularServices';
 import HomeSearchBar from './HomeSearchBar';
+import ServiceProviders from './ServiceProviders';
 
 const Content = () => {
   return (
@@ -18,13 +15,7 @@ const Content = () => {
         <HomeSearchBar />
         <Image source={Banner} style={styles.bannerStyle} />
         <PopularServices />
-        <View style={styles.headingTextcontainer}>
-          <Text style={styles.headingText}>Service Providers</Text>
-          <Entypo name="dots-three-horizontal" size={24} color="black" />
-        </View>
-        <ServiceProviderCard />
-        <ServiceProviderCard />
-        <ServiceProviderCard />
+        <ServiceProviders />
         <Ratings />
       </ScrollView>
     </View>
