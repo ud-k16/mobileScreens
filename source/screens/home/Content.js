@@ -11,7 +11,9 @@ import PopularServices from './PopularServices';
 const Content = () => {
   return (
     <View style={styles.contentContainer}>
-      <ScrollView contentContainerStyle={{flexGrow: 1}} style={{flex: 1}}>
+      <ScrollView
+        contentContainerStyle={{flexGrow: 1}}
+        style={{flex: 1, marginBottom: 35}}>
         <View style={styles.searchBarStyle}>
           <Feather name="search" size={24} color="#FF6694" />
           <TextInput
